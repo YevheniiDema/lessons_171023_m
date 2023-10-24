@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ */
+ /* если обращаемся к элементу с помощью имени тега 
+ p{
+    border: 5px solid green;
+}
+ */
+ /* если обращаемся к элементу с помощью имени класса 
+ .name_of _class{
+    border: 5px solid green;
+ }
+ */
+ p {
+    border: 5px solid green;
+ }
+.second_paragraph {
+    border: 5px solid rgb(255, 0, 0);
+    margin: 50px; /* внешние отступы */
+    padding: 40px; /*  внутренние отступы */
+    /* border: 5px solid yellow; */
+}
+a {
+    margin: 250px; /* внешнее расстояние */
+    display: block; /* делает блочный элемент из строчного */
+    /* display: inline;  делает cтрочный элемент из блочного */
+    color: limegreen; /* цвет текста */
+    font-size: 32px; /* размер шрифта */
+    border: 3px solid black; /* толщина, тип и цвет рамки */
+    border-radius: 10px;  /* скругление углов рамки */
+}
+
+.post_block {
+    padding: 15px;
+    text-align: center;
+    width: 1200px;
+    border: 5px solid green;
+    /* 10px => сверху и снизу внешний отступ */
+    /* auto = автоматические отступы по бокам */
+    margin: 10px auto;
+  }
