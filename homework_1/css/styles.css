@@ -1,0 +1,18 @@
+/* * {
+    background: #c2d4e7;
+} 
+ */
+h1 {
+    text-align: center;
+}
+.back {
+    background: rgb(220, 245, 244);
+}
+
+.post_block {
+    color: #ffffff;
+    background-color: #34495e;
+    padding: 21px;
+    margin: 20px;
+    border-radius: 20px;
+}
