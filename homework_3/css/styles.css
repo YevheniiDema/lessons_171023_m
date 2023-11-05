@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+body {
+    background-color: rgb(228, 228, 228);
+    font-family: 'Nunito';
+}
+
+/* .reg_form {
+    width: 900px;
+    height: 500px;
+    background-color: #7B8E98;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+} */
+
+.registration_block {
+    width: 420px;
+    height: 426px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.registration_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image_close {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+img {
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+    margin-top: 16px;
+    
+}
+
+.main_1 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.main_2 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+form {
+    width: 388px;
+    height: 370px;
+    margin: 0 auto;
+}
+
+form  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+h2 {
+    width: 356px;
+    height: 32px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 28px;
+    
+    
+    
+}
+
+.data_input {
+    width: 356px;
+    height: 104px;
+    margin-top: 24px;    
+}
+
+.data_input input {
+    margin-bottom: 8px;
+    width: 356px;
+    height: 48px;
+    border: 1px solid #7B8E98;
+    border-radius: 12px;
+    padding-left: 16px;
+    padding-top: 21px;
+    
+}
+.data_input input:nth-child(1) {
+    padding-top: 21px;
+    padding-bottom: 7px;
+}
+
+.data_input input:nth-child(2) {
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+input:hover {
+    border: 1px solid #FFE44D;
+}
+input:focus {
+    border: 1px solid #FFE44D;
+   
+}
+p {
+    width: 356px;
+    height: 42px;
+    margin: 0 auto;
+    font-size: 12px;
+    font-weight: 400;
+    color: #7B8E98;
+    
+    
+}
+
+.buttons_block {
+    margin-bottom: 32px;
+      
+}
+
+.sign_in {
+    margin-top: 24px;
+    width: 356px;
+    height: 48px;
+    border: none;
+    border-radius: 55px;
+    background-color: #FFE44D;
+    font-weight: 700;
+
+}
+.log_in {
+    margin-top: 8px;
+    width: 356px;
+    height: 48px;
+    border: 1px solid #887e7e;
+    border-radius: 55px;
+    background-color: white;
+    font-weight: 700;
+
+}
